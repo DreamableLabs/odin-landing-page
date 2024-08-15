@@ -34,8 +34,11 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 18px;
     color: #E5E7EB;
+}
+
+.secondary-text {
+    font-size: 18px;
 }
 
 .header-links {
@@ -61,7 +64,7 @@ button {
     color: white;
     background-color: #3882F6;
     border: none;
-    padding: 5px;
+    padding: 5px 20px;
     border-radius: 5px;
     margin-top: 16px;
 }
@@ -116,6 +119,21 @@ h2 {
     color: #1F2937;
 }
 
-.quote-text.author {
+.author {
     text-align: right;
 }
+
+.cta-box {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background: #3882F6;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 50px;
+}
+
+.cta-button {
+    border: 2px solid white;
+}
+
